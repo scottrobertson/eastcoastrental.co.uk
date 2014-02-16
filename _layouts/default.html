@@ -6,39 +6,68 @@
         <title>{{ page.title }}</title>
         <meta name="viewport" content="width=device-width">
 
-        <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/css/syntax.css">
-
         <!-- Custom CSS -->
         <link rel="stylesheet" href="/css/main.css">
 
     </head>
     <body>
 
-        <div class="site">
-          <div class="header">
-            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-            <a class="extra" href="/">home</a>
-          </div>
-
-          {{ content }}
-
-          <div class="footer">
-            <div class="contact">
-              <p>
-                Your Name<br />
-                What You Are<br />
-                you@example.com
-              </p>
+        <div id="wrap">
+            <div id="header">
+                <div id="header-content">
+                    <div id="head_main">
+                        <h1 id="logo">
+                            EAST COAST
+                            <br />
+                            RENTAL LTD
+                        </h1>
+                    </div>
+                    <div id="head_contacts">
+                        <h1><span style="color: #AA0000">Tel:</span> 01289 307611</h1>
+                        <h1><span style="color: #AA0000">Mobile:</span> 07960770561</h1>
+                        <h1><span style="color: #AA0000">Email:</span> sales@berwickcarhire.co.uk</h1>
+                    </div>
+                </div>
+                <br style="clear: left" />
             </div>
-            <div class="contact">
-              <p>
-                <a href="https://github.com/yourusername">github.com/yourusername</a><br />
-                <a href="https://twitter.com/yourusername">twitter.com/yourusername</a><br />
-              </p>
+
+            <div class="nav">
+                <div class="menu">
+                    <ul>
+                        <li class="current_page_item"><a href="/">Home</a></li>
+                        <li class="page_item page-item-41"><a href="/local-attractions">Local Attractions</a></li>
+                        <li class="page_item page-item-6"><a href="/prices">Prices</a></li>
+                        <li class="page_item page-item-8"><a href="/contact">Contact Us</a></li>
+                    </ul>
+                </div>
             </div>
-          </div>
+
+            <div class="headerphoto"></div>
+
+            <div id="content-wrap">
+                <div id="content">
+                    {{ content }}
+                </div>
+            </div>
+
+            <div id="footer">
+                <div id="footer-content">
+                    <div style="width:600px;" class="col float-left">
+                        <h1>Copyright 2014 - <strong>East Coast Rental LTD</strong> ©</h1>
+
+                        <p>
+                            <b>
+                                <span style="color: #AA0000">Address:</span>5 Berwick Workspace, Boarding School
+                                Yard, 90 Marygate, Berwick Upon Tweed, TD15 1BN
+                                <br>
+                            </b>
+                        </p>
+
+                        <div class="visa"></div>
+
+                    </div>
+                </div>
+            </div>
         </div>
-
     </body>
 </html>
