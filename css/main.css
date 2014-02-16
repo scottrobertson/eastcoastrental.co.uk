@@ -149,16 +149,6 @@ textarea {
   display:block;
   color:#777;
 }
-input button, .wpcf7-submit {
-  margin: 0;
-  width:100px;
-  font: bold 1em Arial, Sans-serif;
-  background: #FFF url(/img/gradientbg.jpg) repeat-x;
-  padding: 2px 3px;
-  color: #333333;
-  background: #DADADA;
-  border: 1px solid #DADADA;
-}
 
 
 /***********************
@@ -277,11 +267,12 @@ input button, .wpcf7-submit {
 
 /* header photo */
 .headerphoto {
-  margin: 0 auto;
-  width: 100%;
+  margin: 20px auto;
+  margin-left: 5px;
+  width: 761px;
   height: 203px;
-  margin-top:20px;
-  margin-bottom:20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   background: #FFF url(/img/headerphoto.jpg) no-repeat center;
 
 }
@@ -373,32 +364,12 @@ input button, .wpcf7-submit {
   border-bottom: 1px solid #f2f2f2;
   font: normal 1.5em 'Trebuchet MS', Tahoma, Sans-serif;
 }
-#main ul li {
-  list-style-image: url(../img/bullet.gif);
-}
 
-.post {
-  margin: 0; padding: 0;
-  background: #FFF url(/img/gradientbg.jpg) repeat-x;
-  border: 1px solid #EFEDED;
-}
 .post .post-footer {
   background-color: #FAFAFA;
   border: 1px solid #f2f2f2;
   padding: 5px; margin-top: 20px;
   font-size: 95%;
-}
-.post .post-footer .date {
-  background: url('/img/clock.gif') no-repeat 0 center;
-  padding-left: 20px; margin: 0 10px 0 5px;
-}
-.post .post-footer .comments {
-  background: url('/img/comment.gif') no-repeat 0 center;
-  padding-left: 20px; margin: 0 10px 0 5px;
-}
-.post .post-footer .readmore {
-  background: url('/img/page.gif') no-repeat 0 center;
-  padding-left: 20px; margin: 0 10px 0 5px;
 }
 
 /* footer */
@@ -456,8 +427,6 @@ input button, .wpcf7-submit {
   width: 165px;
   height: 52px;
   background: #FFF url(/img/visa-mastercard.gif);
-  float:
-
 }
 
 .office_image {
