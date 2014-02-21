@@ -437,3 +437,19 @@ textarea {
   float: left;
 }
 
+#contact_response {
+  margin-top: 10px;
+  padding: 10px;
+  background: #eee;
+}
+
+.success {
+  background: #ADD4AA !important;
+  color: #fff;
+}
+
+.error {
+  background: #DC0139 !important;
+  color: #fff;
+}
+
