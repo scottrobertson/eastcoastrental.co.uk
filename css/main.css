@@ -453,3 +453,9 @@ textarea {
   color: #fff;
 }
 
+.closed {
+  background: #DC0139 !important;
+  color: #fff;
+  padding: 10px;
+}
+
