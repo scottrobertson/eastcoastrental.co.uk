@@ -58,7 +58,9 @@
       <div id="content-wrap">
         <div id="content">
 
-          <p class="closed">The office will be closed 30th September to 8th October</p>
+          {% if site.closed %}
+            <p class="closed">{{ site.closed }}</p>
+          {% endif %}
 
           <div class="headerphoto"></div>
 
