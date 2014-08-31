@@ -7,28 +7,22 @@ title: Prices | East Coast Rental | Berwick Car Hire
 <p>Please note that these prices may change from time to time.</p>
 <table>
   <thead>
-  <tr>
-    <th>Car</th>
-    <th>Daily (100 Miles)</th>
-    <th>Weekly</th>
-  </tr>
+    <tr>
+      <th>Car</th>
+      <th>Daily (100 Miles)</th>
+      <th>Weekly</th>
+    </tr>
   </thead>
   <tbody>
-  <tr>
-    <td>Cosra 1.2 5dr</td>
-    <td>£36.50</td>
-    <td>£209</td>
-  </tr>
-  <tr>
-    <td>Meriva 1.4 5dr</td>
-    <td>£41.50</td>
-    <td>£235</td>
-  </tr>
-  <tr>
-    <td>Zafira 1.6&nbsp;( 7Seats)</td>
-    <td>£50.00</td>
-    <td>£329</td>
-  </tr>
+
+    {% for car in site.data.cars %}
+      <tr>
+        <td>{{ car.car }}</td>
+        <td>£{{ car.price_daily }}</td>
+        <td>£{{ car.price_weekly }}</td>
+      </tr>
+    {% endfor %}
+
   </tbody>
 </table>
 <p>&nbsp;</p>

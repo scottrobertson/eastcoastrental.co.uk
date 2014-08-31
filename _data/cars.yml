@@ -1,0 +1,11 @@
+- car: Cosra 1.2 5dr
+  price_daily: 36.50
+  price_weekly: 209
+
+- car: Meriva 1.4 5dr
+  price_daily: 41.50
+  price_weekly: 235
+
+- car: Zafira 1.6 (7 Seats)
+  price_daily: 50.00
+  price_weekly: 329
