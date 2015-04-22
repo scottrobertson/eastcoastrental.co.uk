@@ -1,4 +1,4 @@
 name: Your New Jekyll Site
 markdown: redcarpet
 pygments: true
-closed: 'The office will be closed 30th September to 8th October'
+closed: false
