@@ -1,11 +1,11 @@
 - car: Corsa 1.2 5dr
-  price_daily: 36.50
-  price_weekly: 209
+  price_daily: "37.00"
+  price_weekly: "209.00"
 
 - car: Meriva 1.4 5dr
-  price_daily: 41.50
-  price_weekly: 235
+  price_daily: "42.00"
+  price_weekly: "239.00"
 
 - car: Zafira 1.6 (7 Seats)
-  price_daily: 50.00
-  price_weekly: 329
+  price_daily: "50.00"
+  price_weekly: "329.00"
