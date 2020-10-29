@@ -1,7 +1,9 @@
 source 'https://rubygems.org'
 
+ruby '2.7.1'
+
 # http://github.com/markpundsack/heroku-buildpack-jekyll.git
 
-gem 'github-pages', group: :jekyll_plugins
+gem 'jekyll'
 gem 'jekyll-paginate'
 gem 'kramdown'
