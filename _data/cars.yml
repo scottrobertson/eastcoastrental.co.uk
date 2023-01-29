@@ -1,7 +1,7 @@
-- car: Corsa 1.2 5 door or similar
-  price_daily: "43.00"
-  price_weekly: "239.00"
-
-- car: Meriva 1.4 5 door or similar
+- car: Corsa 1.4 5 door or similar
   price_daily: "49.00"
-  price_weekly: "269.00"
+  price_weekly: "279.00"
+
+- car: Crossland 1.4 5 door or similar
+  price_daily: "55.00"
+  price_weekly: "299.00"
