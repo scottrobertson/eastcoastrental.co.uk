@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.7.8'
+ruby '3.2.2'
 
 # http://github.com/markpundsack/heroku-buildpack-jekyll.git
 
